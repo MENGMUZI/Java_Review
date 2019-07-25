@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee22d41b-3167-4a0b-bbaa-34f33797cdce" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/serializable/SerializableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/CircleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,21 +15,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/BIOServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reflect/ReflectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
+            <state relative-caret-position="684">
               <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reflect/PropertiesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="378">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reflect/NewInstanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="360">
               <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reflect/DynamicProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
+            <state relative-caret-position="1152">
               <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,17 +83,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/ArrayQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="204">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/CircleArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+              <folding>
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/serializable/SerializableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="228">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reflect/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="288">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#214#215#0" expanded="true" />
@@ -157,6 +159,8 @@
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/serializable/SerializableTest.java" />
+        <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/CircleArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/CircleArray.java" />
       </list>
     </option>
   </component>
@@ -185,8 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,10 +201,24 @@
               <item name="Java_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java_Review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_coding_han_DataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="serializable" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,7 +229,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564059277378" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564063294722" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -429,7 +445,8 @@
       <updated>1563364522227</updated>
       <workItem from="1563364523889" duration="6667000" />
       <workItem from="1563874526283" duration="16582000" />
-      <workItem from="1564058734083" duration="366000" />
+      <workItem from="1564058734083" duration="718000" />
+      <workItem from="1564061159262" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="Java复习代码">
       <created>1564022287158</created>
@@ -449,15 +466,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PropertiesTest_test01 - 2019.07.23 at 20h 53m 36s.xml">
-      <configuration name="PropertiesTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PropertiesTest_test01 - 2019.07.23 at 20h 54m 50s.xml">
-      <configuration name="PropertiesTest.test01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PropertiesTest_test01 - 2019.07.23 at 20h 59m 04s.xml">
-      <configuration name="PropertiesTest.test01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PropertiesTest_test01 - 2019.07.23 at 20h 59m 57s.xml">
       <configuration name="PropertiesTest.test01" configurationId="JUnit" />
     </history-entry>
@@ -479,15 +487,24 @@
     <history-entry file="NewInstanceTest_test01 - 2019.07.23 at 21h 18m 14s.xml">
       <configuration name="NewInstanceTest.test01" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SerializableTest_testObjectOutputStream - 2019.07.25 at 20h 51m 44s.xml">
+      <configuration name="SerializableTest.testObjectOutputStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializableTest_testObjectInputStream - 2019.07.25 at 20h 54m 41s.xml">
+      <configuration name="SerializableTest.testObjectInputStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SerializableTest_testObjectInputStream - 2019.07.25 at 20h 55m 07s.xml">
+      <configuration name="SerializableTest.testObjectInputStream" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23615000" />
+    <option name="totallyTimeSpent" value="25719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -504,7 +521,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329235" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329235" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329235" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -591,9 +608,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/object.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/reflect/ReflectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
+        <state relative-caret-position="684">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -603,7 +623,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reflect/PropertiesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="378">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -613,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reflect/NewInstanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="360">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -630,7 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reflect/DynamicProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
+        <state relative-caret-position="1152">
           <caret line="74" column="32" selection-start-line="74" selection-start-column="32" selection-end-line="74" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -647,7 +667,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reflect/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="288">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#214#215#0" expanded="true" />
@@ -656,19 +676,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/ArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/serializable/SerializableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="228">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/serializable/SerializableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        <state relative-caret-position="204">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/CircleArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
           </folding>
         </state>
       </provider>
