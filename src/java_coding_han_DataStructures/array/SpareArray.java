@@ -1,4 +1,4 @@
-package java_coding_han_DataStructures;
+package java_coding_han_DataStructures.array;
 
 /**
  * @author : mengmuzi
