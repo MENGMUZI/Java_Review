@@ -1,6 +1,8 @@
 package java_coding_han_DataStructures.sort;
 
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * @author : mengmuzi
@@ -67,6 +69,27 @@ public class BubbleSort {
 
         System.out.println("冒泡排序排序后的数组");
         bubbleSort(arr);
+
+        //测试一下冒泡排序的速度 O(n^2), 给 80000 个数据，测试
+        //创建要给 80000 个的随机的数组
+        int[] arr2 = new int[80000];
+        for (int i = 0; i < 80000; i++) {
+            arr2[i] = (int)(Math.random() * 80000);
+        }
+
+        Date date1 = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String date1Str = simpleDateFormat.format(date1);
+        //System.out.println("排序前的时间是=" + date1Str);
+
+        bubbleSort(arr2);
+
+        Date date2 = new Date();
+        String date2Str = simpleDateFormat.format(date2);
+        System.out.println("排序前的时间是=" + date2Str);
+
+
+
     }
 
     public static void bubbleSort(int[] arr) {
@@ -81,9 +104,9 @@ public class BubbleSort {
                 }
             }
 
-            if(!flag){// 在一趟排序中，一次交换都没有发生过
+            if (!flag) {// 在一趟排序中，一次交换都没有发生过
                 break;
-            }else {
+            } else {
                 flag = false; // 重置 flag!!!, 进行下次判断
             }
         }
