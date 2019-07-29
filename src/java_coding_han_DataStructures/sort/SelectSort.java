@@ -38,12 +38,15 @@ public class SelectSort {
         for (int i = 0; i < 80000; i++) {
             arr02[i] = (int) (Math.random() * 8000000); // 生成一个[0, 8000000) 数
         }
+
+
         System.out.println("排序前");
         Date data1 = new Date();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String date1Str = simpleDateFormat.format(data1);
         System.out.println("排序前的时间是=" + date1Str);
         selectSort(arr02);
+
         System.out.println("排序后");
         Date data2 = new Date();
         String date2Str = simpleDateFormat.format(data2);
@@ -68,7 +71,7 @@ public class SelectSort {
             //System.out.println("第" + (i + 1) + "轮后~~");
             //System.out.println(Arrays.toString(arr));
         }
-       // System.out.println(Arrays.toString(arr));
+       //System.out.println(Arrays.toString(arr));
 
     }
 }
