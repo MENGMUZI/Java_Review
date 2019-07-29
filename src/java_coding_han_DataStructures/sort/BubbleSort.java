@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class BubbleSort {
     public static void main(String[] args) {
-        int arr[] = {3, 9, -1, 10, -2};
+        int arr[] = {3, 9, -1, 10, -20};
 
 //        //第一趟排序，就是将最大的数排在最后
 //        int temp = 0;//临时变量
