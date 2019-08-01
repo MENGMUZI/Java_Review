@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee22d41b-3167-4a0b-bbaa-34f33797cdce" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/InsertValueSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/recursion/Queue8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/sort/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,14 +89,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/search/BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="407">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/search/InsertValueSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1062">
+              <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -178,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/sort/RadixSort.java" />
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/SeqSearch.java" />
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/InsertValueSearch.java" />
       </list>
     </option>
   </component>
@@ -195,7 +197,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
@@ -253,7 +255,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564662144325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564676441103" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -283,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.InsertValueSearch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.search.BinarySearch" />
       <module name="Java_Review" />
@@ -297,12 +299,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.sort.MergeSort" />
+    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.search.InsertValueSearch" />
       <module name="Java_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_coding_han_DataStructures.sort.*" />
+          <option name="PATTERN" value="java_coding_han_DataStructures.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -440,19 +442,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.RadixSort" />
       <item itemvalue="JUnit.TestIntLength" />
       <item itemvalue="JUnit.TestIntLength.test01" />
       <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.InsertValueSearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="JUnit.TestIntLength.test01" />
         <item itemvalue="JUnit.TestIntLength" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -469,7 +471,7 @@
       <workItem from="1563364523889" duration="6667000" />
       <workItem from="1563874526283" duration="16582000" />
       <workItem from="1564058734083" duration="718000" />
-      <workItem from="1564061159262" duration="76089000" />
+      <workItem from="1564061159262" duration="78427000" />
     </task>
     <task id="LOCAL-00001" summary="Java复习代码">
       <created>1564022287158</created>
@@ -521,7 +523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100056000" />
+    <option name="totallyTimeSpent" value="102394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -533,7 +535,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22031474" />
@@ -922,11 +924,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="407">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/search/InsertValueSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1062">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="58" selection-end-line="59" selection-end-column="58" />
         </state>
       </provider>
     </entry>
