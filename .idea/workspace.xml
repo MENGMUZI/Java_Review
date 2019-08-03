@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee22d41b-3167-4a0b-bbaa-34f33797cdce" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KnapsackProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/FibonacciSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/sort/InsertSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1692">
-              <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KnapsackProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            <state relative-caret-position="1368">
+              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -125,6 +121,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/InsertValueSearch.java" />
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/FibonacciSearch.java" />
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KnapsackProblem.java" />
+        <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java" />
       </list>
     </option>
   </component>
@@ -234,6 +236,13 @@
               <item name="Java_Review" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java_Review" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java_coding_han_DataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="TopTenAlgorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Review" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_Review" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="serializable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -252,7 +261,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564752484704" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564802538099" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -282,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KnapsackProblem">
+  <component name="RunManager" selected="Application.ViolenceMatch">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.search.BinarySearch" />
       <module name="Java_Review" />
@@ -335,18 +344,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestIntLength.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ViolenceMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.TopTenAlgorithm.ViolenceMatch" />
       <module name="Java_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="java_coding_han_DataStructures.TopTenAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TestIntLength" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -440,16 +446,16 @@
       <item itemvalue="Application.RadixSort" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.InsertValueSearch" />
-      <item itemvalue="JUnit.TestIntLength.test01" />
       <item itemvalue="Application.KnapsackProblem" />
+      <item itemvalue="Application.ViolenceMatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ViolenceMatch" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.RadixSort" />
-        <item itemvalue="JUnit.TestIntLength.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +473,7 @@
       <workItem from="1563874526283" duration="16582000" />
       <workItem from="1564058734083" duration="718000" />
       <workItem from="1564061159262" duration="80616000" />
-      <workItem from="1564748967413" duration="2396000" />
+      <workItem from="1564748967413" duration="3724000" />
     </task>
     <task id="LOCAL-00001" summary="Java复习代码">
       <created>1564022287158</created>
@@ -519,7 +525,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106979000" />
+    <option name="totallyTimeSpent" value="108307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -944,8 +950,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KnapsackProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="75" column="26" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        <state relative-caret-position="1368">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
