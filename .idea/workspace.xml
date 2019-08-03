@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee22d41b-3167-4a0b-bbaa-34f33797cdce" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KMPAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/sort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/sort/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="126">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KMPAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -179,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/search/FibonacciSearch.java" />
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KnapsackProblem.java" />
         <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java" />
+        <option value="$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KMPAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -261,7 +262,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564802538099" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564805208333" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -291,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ViolenceMatch">
+  <component name="RunManager" selected="Application.KMPAlgorithm">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.search.BinarySearch" />
       <module name="Java_Review" />
@@ -318,8 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.TopTenAlgorithm.KnapsackProblem" />
+    <configuration name="KMPAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.TopTenAlgorithm.KMPAlgorithm" />
       <module name="Java_Review" />
       <extension name="coverage">
         <pattern>
@@ -331,12 +332,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.sort.RadixSort" />
+    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_coding_han_DataStructures.TopTenAlgorithm.KnapsackProblem" />
       <module name="Java_Review" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_coding_han_DataStructures.sort.*" />
+          <option name="PATTERN" value="java_coding_han_DataStructures.TopTenAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,19 +444,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RadixSort" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.InsertValueSearch" />
       <item itemvalue="Application.KnapsackProblem" />
       <item itemvalue="Application.ViolenceMatch" />
+      <item itemvalue="Application.KMPAlgorithm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMPAlgorithm" />
         <item itemvalue="Application.ViolenceMatch" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.InsertValueSearch" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.RadixSort" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +474,7 @@
       <workItem from="1563874526283" duration="16582000" />
       <workItem from="1564058734083" duration="718000" />
       <workItem from="1564061159262" duration="80616000" />
-      <workItem from="1564748967413" duration="3724000" />
+      <workItem from="1564748967413" duration="6049000" />
     </task>
     <task id="LOCAL-00001" summary="Java复习代码">
       <created>1564022287158</created>
@@ -525,7 +526,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108307000" />
+    <option name="totallyTimeSpent" value="110632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,7 +541,7 @@
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22317597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22317597" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.26037195" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -549,7 +550,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2568306" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2568306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -557,7 +558,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.12431694" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.12431694" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329235" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -957,8 +958,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/ViolenceMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="126">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java_coding_han_DataStructures/TopTenAlgorithm/KMPAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
