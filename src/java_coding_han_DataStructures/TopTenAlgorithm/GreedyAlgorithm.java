@@ -87,6 +87,7 @@ public class GreedyAlgorithm {
             }
             //maxKey != null, 就应该将 maxKey 加入 selects
             if(maxKey != null){
+
                 selects.add(maxKey);
                 //将 maxKey 指向的广播电台覆盖的地区，从 allAreas 去掉
                 allAreas.removeAll(broadcasts.get(maxKey));
