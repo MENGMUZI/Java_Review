@@ -54,18 +54,19 @@ public class BufferedTest {
         BufferedWriter bw = new BufferedWriter(new FileWriter(desFile));
 
 
-        //方法一：使用char[] 数组
-        char[] buffer = new char[1024];
-        int len;
-        while((len = br.read(buffer)) != -1){
-            bw.write(buffer,0,len);
-            bw.flush();
-        }
+//        //方法一：使用char[] 数组
+//        char[] buffer = new char[1024];
+//        int len;
+//        while((len = br.read(buffer)) != -1){
+//            bw.write(buffer,0,len);
+//            bw.flush();
+//        }
 
         //方法二：使用String
         String data;
         while((data = br.readLine()) != null){
-            bw.write(data);
+            //bw.write(data);//按行读其中不包括换行
+            bw.write(data + "\n");
         }
 
         br.close();
