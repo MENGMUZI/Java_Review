@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee22d41b-3167-4a0b-bbaa-34f33797cdce" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IO/BufferedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/FileInputOutputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO/孟木子.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/NumToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/NumToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TangTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TangTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/BufferedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/BufferedTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/IO/FileReaderWriterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="215">
-              <caret line="16" column="49" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/BufferedTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="48" />
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +26,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IO/BufferedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IO/FileInputOutputStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+            <state relative-caret-position="207">
+              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/IO/hello.txt" />
         <option value="$PROJECT_DIR$/src/IO/FileReaderWriterTest.java" />
         <option value="$PROJECT_DIR$/src/IO/FileInputOutPutStreamTest.java" />
-        <option value="$PROJECT_DIR$/src/IO/BufferedTest.java" />
         <option value="$PROJECT_DIR$/src/IO/FileInputOutputStreamTest.java" />
+        <option value="$PROJECT_DIR$/src/IO/BufferedTest.java" />
       </list>
     </option>
   </component>
@@ -199,7 +194,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565258902485" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565259758956" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -230,7 +225,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileInputOutputStreamTest.testFileInputStreamFileOutputStream">
+  <component name="RunManager" selected="JUnit.BufferedTest.BufferedReaderBufferedWriterTest">
+    <configuration name="BufferedTest.BufferedReaderBufferedWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="IO" />
+      <option name="MAIN_CLASS_NAME" value="IO.BufferedTest" />
+      <option name="METHOD_NAME" value="BufferedReaderBufferedWriterTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BufferedTest.BufferedStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Review" />
       <extension name="coverage">
@@ -290,22 +301,6 @@
       <option name="PACKAGE_NAME" value="IO" />
       <option name="MAIN_CLASS_NAME" value="IO.FileReaderWriterTest" />
       <option name="METHOD_NAME" value="testFileReaderFileWriter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileReaderWriterTest.testFileWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Review" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="IO" />
-      <option name="MAIN_CLASS_NAME" value="IO.FileReaderWriterTest" />
-      <option name="METHOD_NAME" value="testFileWriter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -397,19 +392,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FileReaderWriterTest.testFileWriter" />
       <item itemvalue="JUnit.FileReaderWriterTest.testFileReaderFileWriter" />
       <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputStreamTest" />
       <item itemvalue="JUnit.BufferedTest.BufferedStreamTest" />
       <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputStreamFileOutputStream" />
+      <item itemvalue="JUnit.BufferedTest.BufferedReaderBufferedWriterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BufferedTest.BufferedReaderBufferedWriterTest" />
         <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputStreamFileOutputStream" />
         <item itemvalue="JUnit.FileInputOutputStreamTest.testFileInputStreamTest" />
         <item itemvalue="JUnit.BufferedTest.BufferedStreamTest" />
         <item itemvalue="JUnit.FileReaderWriterTest.testFileReaderFileWriter" />
-        <item itemvalue="JUnit.FileReaderWriterTest.testFileWriter" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +428,7 @@
       <workItem from="1564973045364" duration="3788000" />
       <workItem from="1565055438283" duration="1411000" />
       <workItem from="1565111075380" duration="364000" />
-      <workItem from="1565250339411" duration="6245000" />
+      <workItem from="1565250339411" duration="7199000" />
     </task>
     <task id="LOCAL-00001" summary="Java复习代码">
       <created>1564022287158</created>
@@ -453,18 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FileInputOutputStreamTest_testFileInputStreamTest - 2019.08.08 at 17h 23m 18s.xml">
-      <configuration name="FileInputOutputStreamTest.testFileInputStreamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileInputOutputStreamTest_testFileInputStreamTest - 2019.08.08 at 17h 23m 31s.xml">
-      <configuration name="FileInputOutputStreamTest.testFileInputStreamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileInputOutputStreamTest_testFileInputStreamTest - 2019.08.08 at 17h 23m 44s.xml">
-      <configuration name="FileInputOutputStreamTest.testFileInputStreamTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FileInputOutputStreamTest_testFileInputStreamTest - 2019.08.08 at 17h 23m 50s.xml">
-      <configuration name="FileInputOutputStreamTest.testFileInputStreamTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FileInputOutputStreamTest_testFileInputStreamTest - 2019.08.08 at 17h 23m 58s.xml">
       <configuration name="FileInputOutputStreamTest.testFileInputStreamTest" configurationId="JUnit" />
     </history-entry>
@@ -483,9 +466,21 @@
     <history-entry file="FileInputOutputStreamTest_testFileInputStreamTest - 2019.08.08 at 18h 03m 45s.xml">
       <configuration name="FileInputOutputStreamTest.testFileInputStreamTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FileInputOutputStreamTest_testFileInputStreamTest - 2019.08.08 at 18h 08m 12s.xml">
+      <configuration name="FileInputOutputStreamTest.testFileInputStreamTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileInputOutputStreamTest_testFileInputStreamFileOutputStream - 2019.08.08 at 18h 08m 23s.xml">
+      <configuration name="FileInputOutputStreamTest.testFileInputStreamFileOutputStream" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BufferedTest_BufferedReaderBufferedWriterTest - 2019.08.08 at 18h 20m 34s.xml">
+      <configuration name="BufferedTest.BufferedReaderBufferedWriterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BufferedTest_BufferedReaderBufferedWriterTest - 2019.08.08 at 18h 21m 17s.xml">
+      <configuration name="BufferedTest.BufferedReaderBufferedWriterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127901000" />
+    <option name="totallyTimeSpent" value="128855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,7 +495,7 @@
     <frame x="0" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.24034335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.24034335" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.26037195" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -509,7 +504,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2568306" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2568306" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,36 +534,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Java复习代码" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/reflect/ReflectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reflect/PropertiesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reflect/NewInstanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reflect/StaticProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -942,33 +907,42 @@
     <entry file="file://$PROJECT_DIR$/src/IO/孟木子.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/孟木子01.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/FileInputOutputStreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/孟木子的副本.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/FileReaderWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="49" />
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/孟木子02.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/hello02.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/BufferedTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/FileInputOutputStreamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        <state relative-caret-position="388">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

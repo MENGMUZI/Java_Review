@@ -43,8 +43,33 @@ public class BufferedTest {
             fos.close();
         }
 
+    }
+
+    @Test
+    public void BufferedReaderBufferedWriterTest() throws IOException {
+        File srcFile = new File("src/IO/hello.txt");
+        File desFile = new File("src/IO/hello05.txt");
+
+        BufferedReader br = new BufferedReader(new FileReader(srcFile));
+        BufferedWriter bw = new BufferedWriter(new FileWriter(desFile));
 
 
+        //方法一：使用char[] 数组
+        char[] buffer = new char[1024];
+        int len;
+        while((len = br.read(buffer)) != -1){
+            bw.write(buffer,0,len);
+            bw.flush();
+        }
+
+        //方法二：使用String
+        String data;
+        while((data = br.readLine()) != null){
+            bw.write(data);
+        }
+
+        br.close();
+        bw.close();
     }
 
 }
