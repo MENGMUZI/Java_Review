@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * @author : mengmuzi
  * create at:  2019-08-11  01:34
- * @description: lock可以中断，死锁并中断解决死锁
+ * @description: ReentrantLock可以中断，死锁问题并中断解决死锁
  */
 public class DeadLockDemo implements Runnable {
 
