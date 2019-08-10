@@ -12,8 +12,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class ArrayListMultiThread {
 
-    //static ArrayList<Integer> arrayList = new ArrayList<>();
-    static Vector<Integer> arrayList = new Vector<>();
+    static ArrayList<Integer> arrayList = new ArrayList<>();
+    //static Vector<Integer> arrayList = new Vector<>();
     //static CopyOnWriteArrayList arrayList = new CopyOnWriteArrayList();
 
     public static void main(String[] args) {
