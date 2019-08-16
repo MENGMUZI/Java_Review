@@ -4,7 +4,7 @@ package googlemaster;
 /**
  * @author : mengmuzi
  * create at:  2019-08-14  22:24
- * @description: 二叉树的遍历
+ * @description: 1.二叉树的遍历 2.根据前序和中序求后序
  */
 
 class TreeNode{
@@ -52,8 +52,20 @@ class TreeCreator {
         root.getRight().setRight(new TreeNode('F'));
         return root;
     }
+    //根据前序和中序求后序
+    public TreeNode createTreeByPreAndIn(String preOrder,String inOrder){
+        char rootValue = preOrder.charAt(0);
+        int rootIndex = inOrder.indexOf(rootValue);
+
+        TreeNode root = new TreeNode(rootValue);
+        root.setLeft(createTreeByPreAndIn(preOrder.substring(1,1+rootIndex),inOrder.substring(0,rootIndex)));
+
+        return null;
+    }
+
 }
 
+//二叉树的遍历
 public class TreeTraversal{
 
     public void preOrder(TreeNode root){
