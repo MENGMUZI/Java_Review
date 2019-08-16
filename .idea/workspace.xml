@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee22d41b-3167-4a0b-bbaa-34f33797cdce" name="默认" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/Test0303.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/googlemaster/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/googlemaster/TreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test0101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test0202.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test0202.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/googlemaster/TreeTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+            <state relative-caret-position="334">
+              <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -268,7 +264,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565971519395" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565972765293" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -492,7 +488,7 @@
       <workItem from="1565331843800" duration="1000" />
       <workItem from="1565369554025" duration="32028000" />
       <workItem from="1565718231440" duration="26922000" />
-      <workItem from="1565960151243" duration="1980000" />
+      <workItem from="1565960151243" duration="2911000" />
     </task>
     <task id="LOCAL-00001" summary="Java复习代码">
       <created>1564022287158</created>
@@ -544,7 +540,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193676000" />
+    <option name="totallyTimeSpent" value="194607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,7 +555,7 @@
     <frame x="1488" y="-86" width="1440" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25822604" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25822604" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.26037195" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -568,7 +564,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29740933" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29740933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.15710382" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,7 +572,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32910052" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2839378" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2839378" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.329235" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1030,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/googlemaster/TreeTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+        <state relative-caret-position="334">
+          <caret line="106" column="24" lean-forward="true" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
         </state>
       </provider>
     </entry>

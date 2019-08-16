@@ -56,7 +56,7 @@ class TreeCreator {
 
     //根据前序和中序求后序
     public TreeNode createTreeByPreAndIn(String preOrder, String inOrder) {
-        if(preOrder.isEmpty()){
+        if (preOrder.isEmpty()) {
             return null;
         }
         char rootValue = preOrder.charAt(0);
@@ -68,6 +68,7 @@ class TreeCreator {
 
         return root;
     }
+
 
 }
 
@@ -101,6 +102,18 @@ public class TreeTraversal {
         System.out.print(root.getValue());
     }
 
+    public String postOrder(String preOrder, String inOrder) {
+        if (preOrder.isEmpty()) {
+            return "";
+        }
+        char rootValue = preOrder.charAt(0);
+        int rootIndex = inOrder.indexOf(rootValue);
+        return postOrder(preOrder.substring(1, 1 + rootIndex), inOrder.substring(0, rootIndex))
+                + postOrder(preOrder.substring(1 + rootIndex), inOrder.substring(1 + rootIndex))
+                + rootValue;
+
+    }
+
 
     public static void main(String[] args) {
         TreeCreator treeCreator = new TreeCreator();
@@ -114,9 +127,12 @@ public class TreeTraversal {
         System.out.println();
 
         System.out.println("=======CreateTreeByPreOrderAndInOrder======");
-        TreeNode node = treeCreator.createTreeByPreAndIn("ABDEGCF","DBGEACF");
+        TreeNode node = treeCreator.createTreeByPreAndIn("ABDEGCF", "DBGEACF");
         treeTraversal.postOrder(node);
         System.out.println();
+
+        System.out.println("=======PostOrderByPreOrderAndInOrder======");
+        System.out.println(treeTraversal.postOrder("ABDEGCF", "DBGEACF"));
 
     }
 
