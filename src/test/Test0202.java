@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * @author : mengmuzi
  * create at:  2019-08-16  19:04
- * @description:
+ * @description: 科大讯飞笔试
  */
 public class Test0202 {
     public static void main(String[] args) {

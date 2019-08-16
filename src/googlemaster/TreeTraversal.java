@@ -7,7 +7,7 @@ package googlemaster;
  * @description: 1.二叉树的遍历 2.根据前序和中序求后序
  */
 
-class TreeNode{
+class TreeNode {
 
     private final char value;
 
@@ -41,8 +41,9 @@ class TreeNode{
         this.right = right;
     }
 }
+
 class TreeCreator {
-    public TreeNode createSampleTree(){
+    public TreeNode createSampleTree() {
         TreeNode root = new TreeNode('A');
         root.setLeft(new TreeNode('B'));
         root.setRight(new TreeNode('C'));
@@ -52,24 +53,29 @@ class TreeCreator {
         root.getRight().setRight(new TreeNode('F'));
         return root;
     }
+
     //根据前序和中序求后序
-    public TreeNode createTreeByPreAndIn(String preOrder,String inOrder){
+    public TreeNode createTreeByPreAndIn(String preOrder, String inOrder) {
+        if(preOrder.isEmpty()){
+            return null;
+        }
         char rootValue = preOrder.charAt(0);
         int rootIndex = inOrder.indexOf(rootValue);
 
         TreeNode root = new TreeNode(rootValue);
-        root.setLeft(createTreeByPreAndIn(preOrder.substring(1,1+rootIndex),inOrder.substring(0,rootIndex)));
+        root.setLeft(createTreeByPreAndIn(preOrder.substring(1, 1 + rootIndex), inOrder.substring(0, rootIndex)));
+        root.setRight(createTreeByPreAndIn(preOrder.substring(1 + rootIndex), inOrder.substring(1 + rootIndex)));
 
-        return null;
+        return root;
     }
 
 }
 
 //二叉树的遍历
-public class TreeTraversal{
+public class TreeTraversal {
 
-    public void preOrder(TreeNode root){
-        if(root == null){
+    public void preOrder(TreeNode root) {
+        if (root == null) {
             return;
         }
         System.out.print(root.getValue());
@@ -77,16 +83,17 @@ public class TreeTraversal{
         preOrder(root.getRight());
     }
 
-    public void inOrder(TreeNode root){
-        if(root == null){
+    public void inOrder(TreeNode root) {
+        if (root == null) {
             return;
         }
         inOrder(root.getLeft());
         System.out.print(root.getValue());
         inOrder(root.getRight());
     }
-    public void postOrder(TreeNode root){
-        if(root == null){
+
+    public void postOrder(TreeNode root) {
+        if (root == null) {
             return;
         }
         postOrder(root.getLeft());
@@ -105,6 +112,12 @@ public class TreeTraversal{
         System.out.println();
         treeTraversal.postOrder(tree);
         System.out.println();
+
+        System.out.println("=======CreateTreeByPreOrderAndInOrder======");
+        TreeNode node = treeCreator.createTreeByPreAndIn("ABDEGCF","DBGEACF");
+        treeTraversal.postOrder(node);
+        System.out.println();
+
     }
 
 }

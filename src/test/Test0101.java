@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @author : mengmuzi
  * create at:  2019-08-16  18:30
- * @description:
+ * @description: 科大讯飞笔试
  */
 public class Test0101 {
     public static void main(String[] args) {
