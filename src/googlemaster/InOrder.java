@@ -32,16 +32,21 @@ public class InOrder {
     }
 
 
+    public void inOrderTraverse(TreeNode root){
+        for (TreeNode node = first(root); node != null; node = next(node)) {
+            System.out.print(node.getValue());
+        }
+    }
+
+
     public static void main(String[] args) {
         TreeCreator treeCreator = new TreeCreator();
         InOrder inOrder = new InOrder();
 
         TreeNode sampleTree = treeCreator.createSampleTree();
-        for (TreeNode node = inOrder.first(sampleTree); node != null; node = inOrder.next(node)) {
-            System.out.print(node.getValue());
-        }
-        System.out.println();
 
+        inOrder.inOrderTraverse(sampleTree);
+        System.out.println();
     }
 
 }
